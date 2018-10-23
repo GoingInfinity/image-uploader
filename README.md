@@ -3,12 +3,12 @@
 
 ## To get started
 
-npm i 
-npm run build
-npm run dev 
+-npm i 
+-npm run build
+-npm run dev 
 
 or
 
-npm i
-npm start
+-npm i
+-npm start
 
