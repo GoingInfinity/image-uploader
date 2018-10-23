@@ -19,13 +19,12 @@ app.use('/public', express.static(path.join(__dirname, '/public')));
 app.post('/upload', (req, res) => {
   const imageFile = req.files.imgFile;
 
-  imageFile.mv(`${__dirname}/public/uploads/${req.body.imgName}`, (err) => {
+  imageFile.mv(`${__dirname}/public/${req.body.imgName}`, (err) => {
     if (err) {
       return res.status(500).send(err);
     }
 
-    res.json({ file: `public/uploads${req.body.imgName}` });
-    return res.status(200).send('success');
+    res.json({ file: `public/${req.body.imgName}` });
   });
 });
 
