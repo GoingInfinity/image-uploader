@@ -1,0 +1,53 @@
+.container {
+  width: 40em;
+  height: 20em;
+  background-color: beige;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 10%;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.drop-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 8em;
+  background-color: yellow;
+  text-align: center;
+  border: 4px dashed black;
+  text-align: center;
+}
+
+.text {
+  position: relative;
+  top: 20%;
+  opacity: .6;
+}
+
+.img {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.info-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  position: relative;
+  width: 7em;
+  height: 3em;
+}
